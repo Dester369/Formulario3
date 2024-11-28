@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 1%;
+}
+h1{
+    text-align: center;
+}
+
+p.tit{
+    text-align: center;
+}
+
+body {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+
+div {
+    width: 550px;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 10px;
+   border: 1px solid gray;
+   border-radius: 4px;
+
+}
+
+input[type="password"]{
+    width: 100%;
+    padding: 10px;
+   border: 1px solid gray;
+   border-radius: 4px;
+}
+
+input[type="button"]{
+    width: 100%;
+    padding: 10px;
+   border: 1px solid gray;
+   border-radius: 4px;
+   color: white;
+   background-color: green;
+   cursor: pointer;
+
+}
